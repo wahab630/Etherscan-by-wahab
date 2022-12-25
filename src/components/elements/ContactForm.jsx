@@ -37,7 +37,7 @@ const ContactForm = () => {
                       id="fname"
                       name="Enter Value"
                       value={dollars}
-                      placeholder="Enter Value"
+                      placeholder="Value:"
                       onChange={(e) => setDollars(e.target.value)}
                     />
                     <input
